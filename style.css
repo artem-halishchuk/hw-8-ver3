@@ -1,0 +1,81 @@
+@import url("reset.css");
+h1 {
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+h2 {
+	font-size: 24px;
+	text-align: center;
+	margin-top: 40px;
+}
+.tabs {
+	display: inline-flex;
+	font-size: 40px;
+}
+.tabsItem {
+	border: 2px black solid;
+	background-color: aliceblue;
+	border-radius: 10px 10px 0 0;
+}
+.tabsItem:hover {
+	background-color: #c6cbd0;
+}
+.tabsSelected {
+	background-color: #b3d4fc;
+}
+.tabsContentWrapper {
+	width: 500px;
+}
+.tabsContentNone {
+	display: none;
+}
+.tabsContentShow {
+	display: block;
+	border: 2px black solid;
+}
+
+
+.painTable, .table {
+	margin-left: auto;
+	margin-right: auto;
+}
+.task2 td, .task3 td, .puzzle15 td {
+	width: 50px;
+	height: 50px;
+	border: 1px black solid;
+	flex-grow: 0;
+}
+
+.task2v2 td {
+	width: 50px;
+	height: 50px;
+	border: 1px black solid;
+	flex-grow: 0;
+}
+.task2v2-highlight {
+	background-color: blue;
+}
+.move {
+	background-color: red;
+}
+.cursorField {
+	width: 500px;
+	height: 500px;
+	border: 2px black solid;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.cursor {
+	width: 50px;
+	height: 100px;
+	/*border: 2px black solid;*/
+	background-image: url("img/arrow.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	/*transform:scaleY(-1);*/
+}
