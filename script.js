@@ -225,7 +225,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
     cursorField.onmouseout = whereCursorOff;
-    cursorField.onmousemove = cursorField.onmousedown = whereCursor;
+    cursorField.onmousemove = whereCursor;
 
     function whereCursor(event) {
         cursorField.style.backgroundColor = "red";
